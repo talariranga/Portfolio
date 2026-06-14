@@ -2,9 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 import {
-  FaAngular,
   FaMobileAlt,
-  FaGithub,
   FaLinkedin,
   FaEnvelope,
   FaBars,
@@ -28,20 +26,6 @@ function App() {
 
   const experienceText = `${years} yrs ${months} mos`;
 
-  const skills = [
-    "Angular",
-    "TypeScript",
-    "Ionic",
-    "Cordova",
-    "Capacitor",
-    "HTML5",
-    "CSS3",
-    "JavaScript",
-    // "PostgreSQL",
-    // "MySQL",
-    "Git",
-    "REST APIs",
-  ];
 
   const closeMenu = () => setMenuOpen(false);
 
